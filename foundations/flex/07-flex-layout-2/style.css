@@ -27,3 +27,59 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  padding-left: 16px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content{
+  display: flex;
+  flex: 1;
+}
+
+.sidebar{
+  font-size: 24px;
+  padding: 16px;
+  flex-shrink: 0;
+}
+
+.cards{
+  display: flex;
+  padding: 48px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card{
+  width: 300px;
+  padding: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
